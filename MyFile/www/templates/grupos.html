@@ -1,0 +1,20 @@
+<ion-view view-title="Grupos" id="pagina-grupos">
+  <ion-content class="is-header">
+    <div class="card">
+      <label class="item item-input">
+        <i class="icon ion-search placeholder-icon"></i>
+        <input type="text" placeholder="Search">
+      </label>
+    </div>
+ </ion-content>
+  <ion-content class="has-search">
+    <div class="list list-inset">
+      <div class="list" ng-repeat="grupo in grupos">
+        <a class="item item-thumbnail-left" href="#">
+          <img src="img/fundo4.png">
+          <h2>{{grupo.nome}}</h2>
+        </a>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

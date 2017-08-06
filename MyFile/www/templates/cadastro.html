@@ -1,0 +1,22 @@
+<ion-view view-title="Cadastro" class="pagina-cadastro">
+  <ion-content >
+
+      <h1 class="title">Cadastro</h1>
+
+      <div class="list list-inset" id="cadastro-list">
+        <label class="item item-input">
+          <input type="text" placeholder="Nome completo">
+        </label>
+        <label class="item item-input">
+          <input type="text" placeholder="E-mail">
+        </label>
+        <label class="item item-input">
+          <input type="password" placeholder="Senha">
+        </label>
+          <ion-radio ng-model="choice" ng-value="'A'">Estudante</ion-radio>
+          <ion-radio ng-model="choice" ng-value="'B'">Profissional</ion-radio>
+          <button class="button button-block button-positive" ng-click="salvar()" type="submit">Salvar</utton>
+      </div>
+
+    </ion-content>
+  </ion-view>

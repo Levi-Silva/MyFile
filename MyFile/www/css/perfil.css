@@ -1,0 +1,74 @@
+.pagina-perfil img {
+  border-radius: 100%;
+  border: 1px solid white;
+  box-shadow: 0 0 1em white;
+  margin: 20px auto;
+  width: 150px;
+  height: 150px;
+  display: block;
+}
+
+p.email {
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+}
+
+p.nome {
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 20px;
+  color: white;
+}
+
+.col-50 {
+  text-align: center;
+  color: white;
+}
+
+.col-50.grupos {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 35px;
+  border-right: 0.7px solid white;
+}
+
+.col-50.gruposdesc {
+  border-right: 0.7px solid white;
+}
+
+.col-50.arquivos {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 35px;
+}
+
+.col-25 {
+  margin-left: 90%;
+  font-size: 2em;
+}
+
+.row.dados {
+  padding-top: 5px;
+}
+
+.pagina-perfil {
+background: #757F9A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #D7DDE8, #757F9A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #D7DDE8, #757F9A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.criaprocura-grupo {
+  text-align: center;
+  margin-top: 15%;
+  font-family: 'Rambla', sans-serif;
+  color: #63747A;
+  font-size: 20px;
+}
+
+.ui.buttons.grupos {
+    margin-left: 25%;
+    margin-top: 1%;
+}

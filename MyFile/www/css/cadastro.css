@@ -1,0 +1,17 @@
+#cadastro-list {
+	padding-top: 20px;
+	margin-top: 25%;
+}
+
+.pagina-cadastro {
+ background: #C9D6FF;  
+ background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  
+ background: linear-gradient(to right, #E2E2E2, #C9D6FF); 
+}
+
+h1.title {
+	text-align: center;
+	padding-top: 30px;
+	font-family: 'Rambla', sans-serif;
+	color: #63747A;
+}

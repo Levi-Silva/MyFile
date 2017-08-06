@@ -1,0 +1,36 @@
+ion-content{
+  display: inline-block;
+}
+
+.is-file {
+  margin-top: 70px;
+}
+
+.is-header-search .card {
+  z-index: 999;
+}
+
+.is-file p{
+  text-align: center;
+  padding: 6% 0;
+}
+
+.button-share-galeria{
+  text-align:right;
+  font-size: 20px;
+}
+
+.button-star-galeria{
+  text-align: left;
+  font-size: 20px;
+}
+
+.item-galeria{
+  padding: 0;
+}
+
+#pagina-galeria {
+  background: #C9D6FF;
+  background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);
+  background: linear-gradient(to right, #E2E2E2, #C9D6FF); 
+}

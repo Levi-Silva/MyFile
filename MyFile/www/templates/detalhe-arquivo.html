@@ -1,0 +1,25 @@
+<ion-view view-title="Detalhe Arquivo" id="pagina-detalhe-arquivo">
+  <ion-content class="is-header" id="topo">
+    <div class="list card">
+
+      <div class="item item-avatar">
+        <img src="img/usuario.png">
+        <h2>{{arquivo.usuario}}</h2>
+        <p>{{arquivo["data-criacao"]}}</p>
+      </div>
+
+      <div class="item item-body">
+        <img class="full-image" src="img/XML.png">
+        <p>
+          {{arquivo.nome}}<br>
+          {{arquivo.tamanho}}<br>
+          {{arquivo.extensao}}
+        </p>
+        <p>
+          <a href="#" class="subdued">Comments</a>
+        </p>
+      </div>
+
+    </div>
+  </ion-content>
+</ion-view>
